@@ -1,0 +1,82 @@
+html {
+    font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high  */
+    font-family: "Lora", serif; /* this should be the rest of the output you got from Google fonts */
+    background-color: black
+  }
+
+  h2 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: whitesmoke;
+  }
+  
+  p, li {
+    font-size: 16px;    
+    line-height: 2;
+    letter-spacing: 1px;
+    color: whitesmoke
+  
+  }
+  body {
+    width: 100%; /*forces the body to always be 600 pixels wide */
+    margin: 0 auto; /* first value affects top & bottom, second value affects both sides (R,L) */
+    background-color: black;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+  }
+  img{
+    display: block; 
+    margin: 0 auto;
+    width: 400px;
+  }
+  button{
+    color: pink;
+  }
+
+  #about-me-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #about-me-img {
+    height: 100%;
+    width: 100%;
+  }
+
+  #about-me-text {
+    height: 100%;
+    width: 100%;
+  }
+
+  #port-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+  }
+
+  .port-item {
+    height: 100%;
+    width: 100%;
+    border: 20px solid black;
+  }
+
+  .port-img {
+    height: 100%;
+    width: 100%;
+    
+  }
+
+  #about-img {
+    height: 100%;
+    width: 100%;
+  }
+
+  footer {
+    color: whitesmoke;
+  }
+
+  #heading {
+    color: whitesmoke;
+  }
